@@ -10,9 +10,10 @@ export default function Home() {
       "https://ggayane.github.io/css-experiments/cards/dark_rider-title.png",
     title: "Dark Rider",
     cardHref: "",
+    height: 300,
   };
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between bg-green-400 p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <CharacterCard cardData={card1} />
     </main>
   );

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @responsive {
+    @variants hover, focus {
+      .perspective {
+        perspective: 2500px;
+      }
+
+      .card-transition {
+        transition: all 0.5s;
+      }
+
+      .character-transform {
+        opacity: 1;
+        /* transform: translate3d(0%, -30%, 100px); */
+      }
+
+      .transform-title {
+        transform: translate3d(0%, -50px, 100px);
+      }
+
+      .transition-title {
+        transition: transform 0.5s;
+      }
+    }
+  }
+}
