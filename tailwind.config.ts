@@ -13,13 +13,6 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      typography: {
-        "custom-perspective": {
-          css: {
-            perspective: "2500px",
-          },
-        },
-      },
     },
   },
   plugins: [require("@kamona/tailwindcss-perspective")],
